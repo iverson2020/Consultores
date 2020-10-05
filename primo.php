@@ -13,7 +13,7 @@
 		$primo=true;
 		for($j=2; $j<$i; $j++){
 			
-			if($i % $j ==0){
+			if($i % $j == 0){
 			$primo=false;
 		
 			}

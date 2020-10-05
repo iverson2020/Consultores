@@ -7,21 +7,21 @@
 
 <body>
 	<?php
-	$cont=0;
+		//Arreglos (Arrays) 
+		$cont=0;
+		$arreglo_numeros = [];
+		$arreglo_numeros_menores = [];
 		
-	
-			
-	
-			
-		for($i=1; $i<=30; $i++){
-			$num=rand(1,30);
-			
-			if($num<20 ){
-			$cont++;
-			
-		  
-			echo    $num  . " , ";
-				 
+		for($i=1; $i<=30; $i++)
+		{
+			$num = rand(1,100);
+			$arreglo_numeros[] = $num;
+
+			if($num<20 )
+			{
+				$cont++;
+				echo    $num  . " , ";
+				$arreglo_numeros_menores[] = $num; 
 			}
        
 			  

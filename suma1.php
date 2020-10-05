@@ -29,12 +29,12 @@
 	
 		
 		$suma=$num1+$num2;
-		
+		$suma2 = $suma;
 		$i=0;
 		
 		echo "la suma es     "  . $suma  . "<br>";
 		
-			while($suma>1){
+			while($suma >= 1){
 				
 				 $i++; 
 			$suma=($suma/10);
@@ -42,9 +42,11 @@
 				
 			}
 			echo "la cantidad de digitos es:  "  .   $i . "<br>";
-			
 		
-           } 
+		$suma2 = strval($suma2);
+		echo "Digitos: " . strlen($suma2);
+		
+	} 
 	
 	?>
 	</body>

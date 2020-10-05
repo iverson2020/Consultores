@@ -13,32 +13,15 @@
 	$c=0;
 
 	
-		
-		
-		
-		
-		while($c<45){
-				
-		if($c==0){
-	echo $c .  "<br>";
-			
-		}else {
-			
-			//echo $c .  "<br>";
-		
-		}
-			      $c=$a+$b;
-			        $b=$a;
-			        $a=$c;
-			
-			for($i=0;$i<=$c;$i++){
-				
-				for($j=0;$j<=$i;$j++){
-					
-			
-				
-			}	echo $c ."<br>";
-		}
+		while($c<500){			
+			if($c==0){
+				echo $c .  "<br>";
+			}else {	
+				echo $c .  "<br>";
+			}
+			$c=$a+$b;
+			$b=$a;
+			$a=$c;
 		}
 	?>	
 </body>

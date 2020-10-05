@@ -60,7 +60,7 @@
 		$nombre=$_POST["nombre"];
 		
 		$edad=$_POST["edad"];
-		$nombre=strtoupper($nombre );
+		$nombre=strtoupper($nombre);
 			echo "&nbsp";
 		if ($edad<17){
 		

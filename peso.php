@@ -21,6 +21,14 @@
 	<?php
 	if(isset($_POST["peso"])){
 		$p=78;$gt=9.8;$m=$p/$gt;$gm=3.711;$gl=1.62;
+
+		$p = 78;
+		$peso_luna = ($p / $gt) * $gl;
+		$peso_marte = ($p / $gt) * $gm;
+
+		echo "Mi peso en la tierra: " . $p . "<br>";
+		echo "Mi peso en la luna: " . $peso_luna . "<br>";
+		echo "Mi peso en Marte: " . $peso_marte . "<br>";
 		
 		if ($_REQUEST['radio1']=="Marte"){
 			$peso=$_REQUEST['peso']=$m*$gm;
